@@ -28,22 +28,20 @@ opts =
   op:  'f:200:200'
 
 console.log sss(opts)
-
 ```
 
 But, if you prefer vanilla JS:
 
 ```javascript
 
-var sss = require('sss-node')('api-key', 'secret')
+var sss = require('sss-node')('api-key', 'secret');
 
-opts = {
+var opts = {
   url: 'http://www.google.com',
   op:  'f:200:200'
-}
+};
 
 console.log(sss(opts));
-
 ```
 
 
