@@ -21,7 +21,7 @@
       }, options);
       options.token = crypto.createHash('sha1', secret).update("" + options.time + ":" + options.url + ":" + options.op).digest('hex');
       query = querystring.stringify(options);
-      return "http://localhost:8080/capture?" + query;
+      return "http://www.screenshotshark.com/capture?" + query;
     };
   };
 

@@ -1,0 +1,25 @@
+{
+  "name": "sss-node",
+  "version": "0.0.1",
+  "description": "Screenshot Shark url generator in node!",
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AppHabitat/sss-node.git"
+  },
+  "keywords": [
+    "screenshot",
+    "api"
+  ],
+  "author": "Mike Holly",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "8a1f26330a87165bae1d320e4cf33277487e2c06"
+}
