@@ -1,19 +1,6 @@
 # ScreenshotShark in Node
 
-               ,
-             .';
-         .-'` .'
-       ,`.-'-.`\
-      ; /     '-'
-      | \       ,-,
-      \  '-.__   )_`'._
-       '.     ```      ``'--._
-      .-' ,                   `'-.
-       '-'`-._           ((   o   )
-        jgs   `'--....(`- ,__..--'
-                       '-'`
-
-[ascii art cred](http://www.retrojunkie.com/asciiart/animals/sharks.htm)
+![Screenshot Shark](http://screenshotshark.com/images/logo.png)
 
 This is the Node.js library for creating screenshot URLs using the ScreenshotShark service.
 
@@ -44,6 +31,4 @@ var opts = {
 console.log(sss(opts));
 ```
 
-
-
-Check out [ScreenshotShark](http://www.screenshotshark.com) for your screenshotting needs.
+Check out [Screenshot Shark](http://www.screenshotshark.com) for all your screenshotting needs.
