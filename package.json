@@ -1,6 +1,6 @@
 {
   "name": "sss-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Screenshot Shark url generator in node!",
   "main": "index.js",
   "dependencies": {
