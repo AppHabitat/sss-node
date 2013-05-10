@@ -17,4 +17,4 @@ module.exports = (apiKey, secret) ->
       .update("#{options.key}:#{options.url}:#{options.op}")
       .digest('hex')
     query = querystring.stringify options
-    "http://www.screenshotshark.com/capture?#{query}"
+    "http://screenshotshark.com/capture?#{query}"

@@ -12,16 +12,16 @@
     return function(options) {
       var query;
       options = _.extend({
-        time: Math.round(new Date().getTime() / 1000),
+        key: apiKey,
         gravity: 'north',
         viewport: '1024x768',
         full: false,
         url: 'http://www.google.com/',
         op: 'r:200:120'
       }, options);
-      options.token = crypto.createHash('sha1', secret).update("" + options.time + ":" + options.url + ":" + options.op).digest('hex');
+      options.token = crypto.createHash('sha1', secret).update("" + options.key + ":" + options.url + ":" + options.op).digest('hex');
       query = querystring.stringify(options);
-      return "http://www.screenshotshark.com/capture?" + query;
+      return "http://screenshotshark.com/capture?" + query;
     };
   };
 
